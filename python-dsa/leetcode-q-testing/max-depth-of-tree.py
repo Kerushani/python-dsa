@@ -23,7 +23,6 @@ class Solution:
 
 # Example usage
 if __name__ == "__main__":
-    # Build example tree: [3, 9, 20, None, None, 15, 7]
     root = TreeNode(3)
     root.left = TreeNode(9)
     root.right = TreeNode(20)
