@@ -1,0 +1,16 @@
+uptime: 120
+tasks:
+  - task_id: "backup"
+    start_time: 0
+    repeat_interval: 60
+    run_duration: 10
+
+  - task_id: "heartbeat"
+    start_time: 100
+    repeat_interval: 0
+    run_duration: 5
+
+  - task_id: "cleanup"
+    start_time: 130
+    repeat_interval: 30
+    run_duration: 10

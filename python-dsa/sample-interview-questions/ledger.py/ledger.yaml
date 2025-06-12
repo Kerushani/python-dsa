@@ -1,0 +1,32 @@
+stock_prices:
+  AAPL: 250
+  TSLA: 100
+  GOOG: 200
+
+instructions:
+  - client_id: 101
+    account_type: TFSA
+    available_funds: 1000
+    investment_targets:
+      - symbol: AAPL
+        allocation: 50
+      - symbol: TSLA
+        allocation: 50
+
+  - client_id: 102
+    account_type: RRSP
+    available_funds: 900
+    investment_targets:
+      - symbol: TSLA
+        allocation: 70
+      - symbol: GOOG
+        allocation: 20
+
+  - client_id: 103
+    account_type: Non-Registered
+    available_funds: 1200
+    investment_targets:
+      - symbol: AAPL
+        allocation: 60
+      - symbol: GOOG
+        allocation: 40

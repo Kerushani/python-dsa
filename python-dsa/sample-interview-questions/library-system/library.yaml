@@ -1,0 +1,52 @@
+books:
+  - id: B101
+    title: "The Pragmatic Programmer"
+    author: "Andy Hunt"
+    copies: 2
+
+  - id: B102
+    title: "Clean Code"
+    author: "Robert C. Martin"
+    copies: 1
+
+  - id: B103
+    title: "Designing Data-Intensive Applications"
+    author: "Martin Kleppmann"
+    copies: 1
+
+users:
+  - id: U001
+    name: "Alice"
+  - id: U002
+    name: "Bob"
+
+events:
+  - type: borrow
+    user_id: U001
+    book_id: B101
+    timestamp: 2024-03-01T10:00:00
+
+  - type: borrow
+    user_id: U001
+    book_id: B102
+    timestamp: 2024-03-01T10:15:00
+
+  - type: borrow
+    user_id: U002
+    book_id: B101
+    timestamp: 2024-03-01T11:00:00
+
+  - type: borrow
+    user_id: U002
+    book_id: B103
+    timestamp: 2024-03-01T12:00:00
+
+  - type: return
+    user_id: U001
+    book_id: B101
+    timestamp: 2024-03-10T09:00:00
+
+  - type: borrow
+    user_id: U002
+    book_id: B101
+    timestamp: 2024-03-10T10:00:00

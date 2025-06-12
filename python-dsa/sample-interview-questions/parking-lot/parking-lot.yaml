@@ -1,0 +1,30 @@
+capacity: 20  # total spots available
+
+events:
+  - type: enter
+    license_plate: ABC123
+    vehicle_type: car
+    timestamp: 2024-01-01T08:00:00
+
+  - type: enter
+    license_plate: XYZ789
+    vehicle_type: motorcycle
+    timestamp: 2024-01-01T08:10:00
+
+  - type: enter
+    license_plate: TRK999
+    vehicle_type: truck
+    timestamp: 2024-01-01T08:20:00
+
+  - type: exit
+    license_plate: ABC123
+    timestamp: 2024-01-01T12:00:00
+
+  - type: enter
+    license_plate: JKL456
+    vehicle_type: car
+    timestamp: 2024-01-01T12:05:00
+
+  - type: exit
+    license_plate: XYZ789
+    timestamp: 2024-01-01T13:00:00

@@ -1,0 +1,37 @@
+room_size: [6, 6]
+start_position: [0, 0]
+chargers:
+  - 2 2
+  - 5 5
+  - 3 3
+  - 0 5
+  - 1 1
+commands: [
+  up,        # should not move (would go out of bounds)
+  right,     # (0,1)
+  down,      # (1,1) — charging station
+  down,      # (2,1)
+  right,     # (2,2) — charging station
+  right,     # (2,3)
+  down,      # (3,3) — charging station
+  down,      # (4,3)
+  down,      # (5,3)
+  right,     # (5,4)
+  right,     # (5,5) — charging station
+  right,     # should not move (out of bounds)
+  down,      # should not move (out of bounds)
+  left,      # (5,4)
+  left,      # (5,3)
+  up,        # (4,3)
+  up,        # (3,3) — revisit
+  left,      # (3,2)
+  up,        # (2,2) — revisit
+  up,        # (1,2)
+  left,      # (1,1) — revisit
+  up,        # (0,1)
+  right,     # (0,2)
+  right,     # (0,3)
+  right,     # (0,4)
+  right,     # (0,5) — charging station
+  right      # should not move (out of bounds)
+]
