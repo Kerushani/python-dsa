@@ -4,6 +4,7 @@ You're given user meeting data for each day of the week (Monday through Sunday).
 All meetings are exactly 30 minutes long, and meetings can begin on the hour or half-hour within working hours.
 
 You are asked to calculate, for each day, the number of unbooked 30-minute slots between 08:00 and 17:00 (inclusive of 16:30–17:00).
+
 Constraints:
 There are 18 total 30-minute slots per day:
 08:00–08:30, 08:30–09:00, ..., 16:30–17:00
