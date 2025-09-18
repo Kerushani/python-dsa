@@ -18,7 +18,6 @@ TOD0: Possible edge cases
 """
 
 class Stock:
-    # example of how this variable updates each time a new instance of a class appears
     count_stock=0
     def __init__(self, stock_symbol="unkown", units=0, price=0, order_type="unkown"):
         self.stock_symbol=stock_symbol
