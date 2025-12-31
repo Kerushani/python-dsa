@@ -33,6 +33,7 @@ for u, v in A:
 
 # ------
 # DFS with recursion - O(V + E) where V is the number of nodes and E is the number of edges
+# dfs we have some sort of seen and we might use it for a search 
 def dfs_recursive(node):
     print(node) 
     for nei_node in D[node]:
