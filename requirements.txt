@@ -49,3 +49,5 @@ typing_extensions==4.15.0
 tzdata==2026.2
 wcwidth==0.2.13
 zipp==3.23.0
+torch==2.8.0
+torchvision==0.23.0
